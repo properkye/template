@@ -22,7 +22,7 @@ export async function login(formData: FormData) {
   }
 
   revalidatePath('/', 'layout')
-  redirect('/admin')
+  redirect('/dashboard')
 }
 
 // funkcija kad hoces nekog da registrujes

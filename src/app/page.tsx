@@ -10,7 +10,7 @@ export default function Home() {
           </button>
         </Link>
 
-        <Link href={"/admin"}>
+        <Link href={"/dashboard"}>
           <button className="border border-black px-8 py-2 rounded-lg cursor-pointer hover:bg-black hover:text-[white] ">
               Admin Dashboard
           </button>
