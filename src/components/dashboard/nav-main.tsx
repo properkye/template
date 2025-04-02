@@ -31,7 +31,7 @@ export function NavMain({
             <SidebarMenuButton
               tooltip="Quick Create"
               className="cursor-pointer min-w-8 bg-primary text-primary-foreground duration-200 ease-linear hover:bg-primary/90 hover:text-primary-foreground active:bg-primary/90 active:text-primary-foreground"
-              onClick={() => setScreen({title:'Izaberite kategoriju proizvoda', url:'nov-proizvod'})}
+              onClick={() => setScreen({title:'Dodajte nov proizvod', url:'nov-proizvod'})}
             >
               <PlusCircleIcon />
               {/* <span>Quick Create</span> */}

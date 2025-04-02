@@ -16,8 +16,8 @@ const JugometalContext = createContext<JugometalContextType | undefined>(
 
 export const JugometalProvider = ({ children }: { children: ReactNode }) => {
   const [screen, setScreen] = useState<Screen>({
-    title: "Traktori",
-    url: "tractors",
+    title: "Dodajte nov proizvod",
+    url: "nov-proizvod",
   });
 
   return (
